@@ -19,7 +19,8 @@ I am open to an internship and a position as a Junior Frontend Developer / coder
 * Git
 
 ### Code Example
-```async function waitAndGreet() {
+```
+async function waitAndGreet() {
   await new Promise(resolve => setTimeout(resolve, 2000));
   console.log('Привет! Спасибо за ожидание.');
 }
