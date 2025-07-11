@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section profile">
+                <h6>Avatar</h6>
+                <img class="avatar" src="./assets/avatar.png" alt="Avatar">
+            </section>
+            <section class="section profile">
+                <h1>Ekaterina Doshchenko</h1>
+                <h2 class="section-title">JUNIOR FRONT-END DEVELOPER</h2>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">CONTACTS</h2>
+                <ul>
+                    <li>Location: Oviedo, Spain</li>
+                    <li>Phone: <a class="link" href="tel:+34-685-802-000" target="_blank">+34 685-802-000</a></li>
+                    <li>Email: <a class="link" href="mailto:ekaterina.doshchenko@gmail.com" target="_blank">ekaterina.doshchenko@gmail.com</a></li>
+                    <li>GitHub: <a class="link" href="https://github.com/katdosh" target="_blank">katdosh</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">SUMMARY</h2>
+                <p>A novice Front-end developer with a legal background and attention to detail. I am open to an internship and a position as a Junior Front-end Developer / coder. I am ready to develop and work in a team.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">SKILLS</h2>
+                <ul>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5/CSS3</li>
+                    <li>Bootstrap 5</li>
+                    <li>GSAP</li>
+                    <li>Figma</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">CODE</h2>
+                <pre><code>
+async function waitAndGreet() {
+await new Promise(resolve => setTimeout(resolve, 2000));
+console.log('Hi! Thanks for waiting.');
+} 
+waitAndGreet();
+                </code></pre>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">EXPERIENCE</h2>
+                <ul>
+                    <li>A multi-page <a class="link" href="https://taupe-genie-cf3e64.netlify.app/" target="_blank">website of the cosmetology clinic</a>has been created. 
+                        <br>HTML/ CSS/JS/GSP. Adaptive layout, feedback forms</li>
+                    <li>A multi-page <a class="link" href="https://luxury-ganache-e9401a.netlify.app/" target="_blank">Italian restaurant website</a>has been created. 
+                        <br>HTML/CSS/JS/GSP. Adaptive layout, menu, gallery, booking,
+                        <br>smooth interface animations.</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">EDUCATION</h2>
+                <ul>
+                    <li>Rostov State University of Economics, specialty “Jurisprudence”</li>
+                    <li>Course <a class="link" href="https://edu-canshecode.thinkific.com/pages/javascript" target="_blank">CanSheCode</a></li>
+                    <li>Course <a class="link" href="https://rs.school/courses/javascript-ru" target="_blank">The Rolling Scopes School</a></li>
+                </ul>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">ENGLISH</h2>
+                <p>A2</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>2025</p>
+            <p><a class="github" href="https://github.com/katdosh" target="_blank">katdosh</a></p>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                <img class="logo-school" src="https://rolling-scopes-school.github.io/taneros-JSFE2021Q3/christmas-task-game/assets/rs_school_js_grey.svg" alt="RS School logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
